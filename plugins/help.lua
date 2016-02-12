@@ -2,10 +2,8 @@ do
 local ver = 2.2
 
 function run(msg, matches)
-  return '1151'..ver..  [[
-   •1  1  5  1•
-áíÓÊ ÏÓÊæÑÇÊ :
-Available Command List :
+  return 'telemagma'..ver..  [[
+
 ------------------
 [!/]kick [username|id]
 >You can also do it by reply
