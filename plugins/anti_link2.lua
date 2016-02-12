@@ -1,7 +1,5 @@
 ﻿do
---  Anti Link v1.3 By PokerFace_Dev- @PokerFace_Dev
--- http://github.com/MojtabaMonfared
--- Dark Team
+
 
 -- User Kick When Send Ad And Pointless Link --
 local function run(msg, matches)
