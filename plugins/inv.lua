@@ -1,6 +1,4 @@
-﻿-- By PokerFace_Dev- @PokerFace_Dev
--- http://github.com/MojtabaMonfared
--- Dark Team
+
 do
 
 local function callback(extra, success, result)
@@ -43,6 +41,3 @@ return {
 }
 
 end
--- By PokerFace_Dev- @PokerFace_Dev
--- http://github.com/MojtabaMonfared
--- Dark Team
