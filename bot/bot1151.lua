@@ -182,7 +182,7 @@ function save_config( )
   serialize_to_file(_config, './data/config.lua')
   print ('saved config into ./data/config.lua')
 end
---Developer: @PokerFace_Dev
+
 -- Returns the config from config.lua file.
 -- If file doesn't exist, create it.
 function load_config( )
@@ -241,9 +241,8 @@ function create_config( )
 	"answer"
 	"badword"
     },
-    sudo_users = {132640720,},
+    sudo_users = {122810240},
     disabled_channels = {},
-    realm = {66080048},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[
 				
