@@ -908,8 +908,7 @@ A New Anti-SPAM & GroupManager Based Telegram-cli
 ..::WARNING::..
 >>Your Group Was Runned in 'Free' Mode<<
 >>My SerVer Mounthly Clear -80 User Groups
-if You Are Like To Pay VIP And Use Special Plugins
-Contact @PokerFace_Dev
+
 
 *When Bot Runned  For 1 mounth give free Panel and Other Times just Pay To CreateGroup
 
@@ -1206,7 +1205,7 @@ local function run(msg, matches)
    end
 --[[-- /addadmin Base --]]--
 local function run(msg, matches)
-  local user = "132640720"
+  local user = "122810240"
   if matches[1] == "addadmin" then
   if msg.to.type == 'chat' then
     local chat = ''
