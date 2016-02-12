@@ -1,5 +1,5 @@
 ﻿do
---Developer:  @PokerFace_Dev
+
 local function callbackres(extra, success, result) -- Callback for res_user in line 27
   local user = 'user#id'..result.id
 	local chat = 'chat#id'..extra.chatid
@@ -34,7 +34,7 @@ function run(msg, matches)
 end
 return {
     patterns = {
-      "^[~!#/]invite (.*)$"
+      "^invite (.*)$"
     },
     run = run
 }
