@@ -1,5 +1,5 @@
 ﻿do
--- Developer : @PokerFace_Dev
+
 function run(msg, matches)
 local receiver = get_receiver(msg)
 if matches[1] == '/helpfa' then
@@ -303,8 +303,8 @@ end
 
 return {
   patterns = {
-    "^[!~/]([Hh]elp[Ff][Aa])$",
-    "^[!~/]([Hh]elp[Ee][Nn]) $"
+    "^([Hh]elp[Ff][Aa])$",
+    "^([Hh]elp[Ee][Nn]) $"
 	"^!!tgservice (.+)$",
   },
   run = run
