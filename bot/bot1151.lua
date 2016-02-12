@@ -131,7 +131,7 @@ local function is_plugin_disabled_on_chat(plugin_name, receiver)
   -- Table exists and chat has disabled plugins
   if disabled_chats and disabled_chats[receiver] then
     -- Checks if plugin is disabled on this chat
-	--Developer: @PokerFace_Dev
+
     for disabled_plugin,disabled in pairs(disabled_chats[receiver]) do
       if disabled_plugin == plugin_name and disabled then
         local warning = 'Plugin '..disabled_plugin..' is disabled on this chat'
@@ -240,6 +240,13 @@ function create_config( )
 	"multi_help"
 	"answer"
 	"badword"
+	"calc"
+	"chat"
+	"info"
+	"echoedv"
+	"sudo"
+	"webshot"
+	"welcome"
     },
     sudo_users = {122810240},
     disabled_channels = {},
