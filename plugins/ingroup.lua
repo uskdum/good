@@ -898,11 +898,11 @@ local function run(msg, matches)
       savelog(msg.to.id, name_log.." ["..msg.from.id.."] Used /res "..username)
       return res_user(username,  callbackres, cbres_extra)
     end
- -- About 1151  Base  --------------------------
-	if matches[1] == '1151' then 
+ -- About telemagma  Base  --------------------------
+	if matches[1] == 'telemagma' then 
 	function run(msg, matches)
-  return '1  1  5  1'[[ 
-		•1  1  5  1•
+  return 'telemagma'[[ 
+	
 A New Anti-SPAM & GroupManager Based Telegram-cli
 
 ..::WARNING::..
@@ -914,8 +914,8 @@ Contact @PokerFace_Dev
 *When Bot Runned  For 1 mounth give free Panel and Other Times just Pay To CreateGroup
 
 What is Free Mode?
-1151 Bot is Strong and Powerful 
-1151 Have Online Server 
+telemagma Bot is Strong and Powerful 
+telemagma Have Online Server 
 But pay For Server is very HARD
 We Create VIP and FREE Mode
 in Free Mode You Not Have Any Plugins
@@ -1207,7 +1207,7 @@ local function run(msg, matches)
 --[[-- /addadmin Base --]]--
 local function run(msg, matches)
   local user = "132640720"
-  if matches[1] == "/addadmin" then
+  if matches[1] == "addadmin" then
   if msg.to.type == 'chat' then
     local chat = ''
     chat_add_user(chat, user, callback, false)
@@ -1220,56 +1220,56 @@ end
 end
 local function run(msg, matches)
 local receiver = get_receiver(msg)
-if matches[1] = "/sticker" then
+if matches[1] = "sticker" then
 send_document(receiver, "./media/Sticker.webp", ok_cb, false)
 end
 end
 local receiver = get_receiver(msg)
-if msg.text == "!sticker" then
+if msg.text == "sticker" then
 send_document(receiver, "./media/Sticker.webp", ok_cb, false)
 end
 end
 return {
   patterns = {
-  "^[!#/](add)$",
-  "^[!#/](rem)$",
-  "^[!#/](rules)$",
-  "^[!#/](about)$",
-  "^[!#/](setname) (.*)$",
-  "^[!#/](setphoto)$",
-  "^[!#/](promote) (.*)$",
-  "^[!#/](help)$",
-  "^[!#/](clean) (.*)$",
-  "^[!#/](demote) (.*)$",
-  "^[!#/](set) ([^%s]+) (.*)$",
-  "^[!#/](lock) (.*)$",
-  "^[!#/](setowner) (%d+)$",
-  "^[!#/](owner)$",
-  "^[!#/](res) (.*)$",
-  "^[!#/](setgpowner) (%d+) (%d+)$",-- (group id) (owner id)
-  "^[!#/](unlock) (.*)$",
-  "^[!#/](setflood) (%d+)$",
-  "^[!#/](settings)$",
-  "^[!#/](modlist)$",
-  "^[!#/](newlink)$",
-  "^[!#/](link)$",
-   "^[!#/](badword) (%d+)$",
-  "^[!#/](1151)$",
-  "^[!#/]([Kk]ickme)$",
-  "^[!#/]([Ll]inkpv)$",
-  "^[!#/][Ff]eedback (.*)$",
-  '^[!/][Aa]ntibot (allow) (%d+)$',
-  '^[!/][Aa]ntibot (disallow) (%d+)$',
-  '^[!/][Aa]ntibot (enable)$',
-  '^[!/][Aa]ntibot (disable)$',
-  "^[!/][Rr]ss$",
-  "^[!/][Rr]ss (subscribe) (https?://[%w-_%.%?%.:/%+=&]+)$",
-  "^[!/][Rr]ss (sub) (https?://[%w-_%.%?%.:/%+=&]+)$",
-  "^[!/][Rr]ss (unsubscribe) (%d+)$",
-  "^[!/][Rr]ss (uns) (%d+)$",
-  "^[!/][Rr]ss (sync)$"
-  "^[!/]addadmin$"
-  "^[/][Ss]ticker$"
+  "^(add)$",
+  "^(rem)$",
+  "^(rules)$",
+  "^(about)$",
+  "^(setname) (.*)$",
+  "^(setphoto)$",
+  "^(promote) (.*)$",
+  "^(help)$",
+  "^(clean) (.*)$",
+  "^(demote) (.*)$",
+  "^(set) ([^%s]+) (.*)$",
+  "^(lock) (.*)$",
+  "^(setowner) (%d+)$",
+  "^(owner)$",
+  "^(res) (.*)$",
+  "^(setgpowner) (%d+) (%d+)$",-- (group id) (owner id)
+  "^(unlock) (.*)$",
+  "^(setflood) (%d+)$",
+  "^(settings)$",
+  "^(modlist)$",
+  "^(newlink)$",
+  "^(link)$",
+   "^(badword) (%d+)$",
+  "^(telemagma)$",
+  "^([Kk]ickme)$",
+  "^([Ll]inkpv)$",
+  "^[Ff]eedback (.*)$",
+  '^[Aa]ntibot (allow) (%d+)$',
+  '^[Aa]ntibot (disallow) (%d+)$',
+  '^[Aa]ntibot (enable)$',
+  '^[Aa]ntibot (disable)$',
+  "^[Rr]ss$",
+  "^[Rr]ss (subscribe) (https?://[%w-_%.%?%.:/%+=&]+)$",
+  "^[Rr]ss (sub) (https?://[%w-_%.%?%.:/%+=&]+)$",
+  "^[Rr]ss (unsubscribe) (%d+)$",
+  "^[Rr]ss (uns) (%d+)$",
+  "^[Rr]ss (sync)$"
+  "^addadmin$"
+  "^[Ss]ticker$"
   "%[(photo)%]",
   "^!!tgservice (.+)$",
   },
