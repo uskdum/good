@@ -48,6 +48,17 @@ patterns = {
 		"madarjende"
 		"jakesh"
 		"ÌÇ˜Ô"
+		  "kir"
+   "kos"
+   "kon"
+   "koni"
+   "ننه جنده"
+   "کس"
+   "کیر"
+   "کون"
+   "کونی"
+   "لاشی"
+   "گاییدمت"
 	}, 
 run = run
 }
