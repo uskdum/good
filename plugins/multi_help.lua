@@ -2,7 +2,7 @@
 
 function run(msg, matches)
 local receiver = get_receiver(msg)
-if matches[1] == '/helpfa' then
+if matches[1] == 'helpfa' then
   return [[
 
 ليست دستورات :
@@ -151,7 +151,7 @@ GNU GPL v2 license.
   send_document(receiver,"./groups/"..target.."Fa.txt", ok_cb, false)
   return
 end
--- Developer : @PokerFace_Dev
+
 function run(msg, matches)
 local receiver = get_receiver(msg)
 if matches[2] == 'helpen' then
