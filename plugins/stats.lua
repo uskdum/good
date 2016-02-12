@@ -1,5 +1,5 @@
 ﻿do
--- Bot State v2.1 By @PokerFace_Dev
+
 -- Returns a table with `name` and `msgs`
 local function get_msgs_user_chat(user_id, chat_id)
   local user_info = {}
@@ -91,10 +91,10 @@ local function bot_stats()
   return text
 end
 local function run(msg, matches)
-  if matches[1]:lower() == '1151' then -- Put everything you like :)
+  if matches[1]:lower() == 'telemagma' then -- Put everything you like :)
     local about = _config.about_text
     local name = user_print_name(msg.from)
-    savelog(msg.to.id, name.." ["..msg.from.id.."] used /1151 ")
+    savelog(msg.to.id, name.." ["..msg.from.id.."] used /telemagma ")
     return about
   end 
   if matches[1]:lower() == "statslist" then
@@ -120,7 +120,7 @@ local function run(msg, matches)
         return
       end
     end
-    if matches[2] == "1151" then -- Put everything you like :)
+    if matches[2] == "telemagma" then -- Put everything you like :)
       if not is_admin(msg) then
         return "For admins only !"
       else
@@ -141,10 +141,9 @@ return {
     "^[!#/]([Ss]tats)$",
     "^[!#/]([Ss]tatslist)$",
     "^[!#/][Ss]tats) (group) (%d+)",
-    "^[!#/][Ss]tats) (1151)",
+    "^(telemagma)",
 }, 
   run = run
 }
 
 end
--- Bot State v2.1 By @PokerFace_Dev
