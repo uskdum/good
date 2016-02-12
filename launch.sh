@@ -1,4 +1,4 @@
-﻿#!/usr/bin/env bash
+#!/usr/bin/env bash
 
 THIS_DIR=$(cd $(dirname $0); pwd)
 cd $THIS_DIR
@@ -110,6 +110,6 @@ else
     echo "Run $0 install"
     exit 1
   fi
-#By @PokerFace_Dev
-  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/bot1151.lua -l 1 -E $@
+
+  ./tg/bin/telegram-cli -k ./tg/tg-server.pub -s ./bot/seedbot.lua -l 1 -E $@
 fi
