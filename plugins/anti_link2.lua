@@ -26,5 +26,5 @@ local function run(msg, matches)
    },
    run = run
  }
---Developer : PokerFaceDev - @PokerFace_Dev
+
 end
