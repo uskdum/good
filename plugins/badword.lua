@@ -1,10 +1,10 @@
 do
---  Anti BadWord v2.1 By PokerFace_Dev- @PokerFace_Dev
+
 local function run(msg, matches)
    if not is_admin or is_sudo(msg) then
      local chat = get_receiver(msg)
      local user = "user#id"..msg.from.id
-         send_large_msg(chat, 'BadWord Detected! \n----\nBy @PokerFace_Dev')
+         send_large_msg(chat, 'BadWord Detected! ')
          send_msg(chat, 'Kicking...!')
          chat_del_user(chat, user, ok_cb, true)
      end
@@ -22,8 +22,8 @@ patterns = {
 		"kos"
 		"koon"
 		"suck"
-		"Ó˜Ó"
-		"Ó˜Óí"
+		"Ã“ËœÃ“"
+		"Ã“ËœÃ“Ã­"
 		"jooooon"
 		"joooon"
 		"jooon"
@@ -33,23 +33,22 @@ patterns = {
 		"penis"
 		"dick"
 		"cock"
-		"ÇííÏä"
-		"˜Õ"
-		"˜íÑ"
+		"ÂÃ‡Ã­Ã­ÃÃ¤"
+		"ËœÃ•"
+		"ËœÃ­Ã‘"
 		"kir"
-		"˜Õ ääÊ"
-		"˜Õ ÈÇÈÇÊ"
-		"ääÊæ ÇííÏã"
+		"ËœÃ• Ã¤Ã¤ÃŠ"
+		"ËœÃ• ÃˆÃ‡ÃˆÃ‡ÃŠ"
+		"Ã¤Ã¤ÃŠÃ¦ ÂÃ‡Ã­Ã­ÃÃ£"
 		"jendeh"
 		"jende"
 		"kirkhar"
-		"˜íÑ ÎÑ"
-		"ãÇÏÑ ŞÍÈå"
+		"ËœÃ­Ã‘ ÃÃ‘"
+		"Ã£Ã‡ÃÃ‘ ÃÃÃˆÃ¥"
 		"madarjende"
 		"jakesh"
-		"ÌÇ˜Ô"
+		"ÃŒÃ‡ËœÃ”"
 	}, 
 run = run
 }
 end
---  Anti BadWord v2.1 By PokerFace_Dev- @PokerFace_Dev
