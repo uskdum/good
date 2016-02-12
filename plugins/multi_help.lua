@@ -4,22 +4,7 @@ function run(msg, matches)
 local receiver = get_receiver(msg)
 if matches[1] == '/helpfa' then
   return [[
- ربات آنتی اسپم 1151
- قدرتمند ترین ربات تلگرام با محیط کاربری کاملا پارسی
- پلاگین های اختصاصی به زبان شیرین پارسی
-امکانات پیشرفته ، مجهز به آنتی بات و قابلیت انتخاب چند ادمین
-امکان ساخت گروه  مخصوص ادمین ها
 
-ادمین:
-@PokerFace_Dev
-
-اعضای تیم:
-@PokerFace_Dev
-@AmirDark
-  
-  Licenced 'GNU General public License v2'
-  
-     •1  1  5  1• ()
 ليست دستورات :
 ------------------
 [!/]kick [username|id]
@@ -114,7 +99,7 @@ if matches[1] == '/helpfa' then
 [!/]invite2 code {***}
 >دعوت کاربر با کد آیدی
 ------------------------
-[!/]version
+[!/]ver
 >Bot Version :)
 [!/addadmin]
 >دعوت ادمین اصلی برای رسیدگی به مشکلات
@@ -129,8 +114,7 @@ if matches[1] == '/helpfa' then
 گروه شما هم اکنون در حالت رايگان است
 سرور ماهانه گروه هاي زير 80 نفر رو اتوماتيک پاک ميکنه
 اگه دوست دارين ميتونيد اکانت وي آي پي بخريد و از امکانات اخصاصي ما استفاده کنيد
-با ادمين در تماس باشيد
-@PokerFace_Dev
+باید صبور باشید
 
 * ربات از زمان افتتاح به مدت يک ماه گروه رايگان عرضه ميکند *
 
@@ -172,24 +156,7 @@ function run(msg, matches)
 local receiver = get_receiver(msg)
 if matches[2] == 'helpen' then
   return [[
-Advanced Anti-Spam and GroupManager 1 1 5 1
- Powerful Telegram Bot With Persian Panel
-  Special Plugins With Persian Language
-   Multiple Realms(Admin Group)
-    Group Administration in Bots Private
-     And ...
 
-Admin:
-@PokerFace_Dev
-
-Our Team:
-@PokerFace_Dev
-@AmirDark
-  
-  Licenced 'GNU General public License v2'
-  
- •1  1  5  1• 
-Available Command List :
 ------------------
 [!/]kick [username|id]
 >You can also do it by reply
@@ -300,8 +267,6 @@ Group description
 ..::WARNING::..
 >>Your Group Was Runned in 'Free' Mode<<
 >>My SerVer Mounthly Clear -80 User Groups
-if You Are Like To Pay VIP And Use Special Plugins
-Contact @PokerFace_Dev
 
 *When Bot Runned  For 1 mounth give FREE Panel and Other Times just Pay To CreateGroup
 
@@ -335,7 +300,7 @@ GNU GPL v2 license.
   return
 end
 
--- Developer : @PokerFace_Dev
+
 return {
   patterns = {
     "^[!~/]([Hh]elp[Ff][Aa])$",
@@ -345,4 +310,3 @@ return {
   run = run
 }
 end
--- Developer : @PokerFace_Dev
