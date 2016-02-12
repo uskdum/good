@@ -246,21 +246,13 @@ function create_config( )
     realm = {66080048},--Realms Id
     moderation = {data = 'data/moderation.json'},
     about_text = [[
-					•1  1  5  1•®
-A New Anti-SPAM & GroupManager Based Telegram-cli
------------------------
-Admin(Sudo)
-@PokerFace_Dev [Developer]
------------------------
-join Channel For Get New Update!!
------------------------
-@TG1151Ch
--_-_-_-_-_-_
-By ..::†DarK†::.. Team®
--_-_-_-_-_-_
+				
+
+amir w.h  test bot
+
 ]],
     help_text = [[
-   •1  1  5  1• ()
+  ()
 ليست دستورات :
 ------------------
 [!/]kick [username|id]
